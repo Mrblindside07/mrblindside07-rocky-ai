@@ -1,0 +1,111 @@
+{
+  "plugins": {
+    "android-cli-plugin": {
+      "enabled": true
+    },
+    "chrome-devtools-plugin": {
+      "enabled": true
+    },
+    "data-agent-kit-plugin": {
+      "enabled": true
+    },
+    "firebase": {
+      "enabled": true
+    },
+    "flutter": {
+      "enabled": false
+    },
+    "gemini-api": {
+      "enabled": true
+    },
+    "google-antigravity-sdk": {
+      "enabled": true
+    },
+    "google_maps_platform": {
+      "enabled": true
+    },
+    "googlecloudtools.datacloud_telemetry": {
+      "enabled": true
+    },
+    "modern-web-guidance-plugin": {
+      "enabled": true
+    },
+    "science": {
+      "enabled": false
+    }
+  },
+  "userSettings": {
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_TURBO",
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_EAGER",
+    "browserJsExecutionPolicy": "BROWSER_JS_EXECUTION_POLICY_TURBO",
+    "enableTerminalSandbox": false,
+    "globalPermissionGrants": {
+      "allow": [
+        "command(graphify query \"KeuanganSaya\")",
+        "command(Test-Path \"d:\\The Code\\html\\graphify-out\\graph.json\"; Test-Path \"d:\\The Code\\html\\graphify-out\\wiki\\index.md\"; Test-Path \"d:\\The Code\\html\\graphify-out\\GRAPH_REPORT.md\")",
+        "command(git status; node --version; graphify --help)",
+        "command(git status; node -v)",
+        "command(node -c \"D:\\The Code\\html\\KeuanganSaya\\script.js\")",
+        "command(graphify update .)",
+        "command(git status; git remote -v)",
+        "command(git add index.html script.js style.css; git commit -m \"feat: add custom recurring subscriptions \u0026 fixed expenses tracker with 1-click pay\"; git push origin main)",
+        "mcp(memory/create_entities)",
+        "command(git diff)",
+        "command(git add index.html portfolio.html; git commit -m \"feat(analytics): integrate Vercel Speed Insights \u0026 Web Analytics\"; git push origin main)",
+        "command(git status)",
+        "read_url(mrblindweb.vercel.app)",
+        "command((Invoke-WebRequest -Uri \"https://mrblindweb.vercel.app/\").Content | Select-String -Pattern \"speed-insights\")",
+        "command(Get-ChildItem -Path \"D:\\The Code\\html\" -Directory)",
+        "command(Select-String -Path \"D:\\The Code\\html\\KeuanganSaya\\index.html\" -Pattern \"sarapan\" -CaseSensitive:$false; Select-String -Path \"D:\\The Code\\html\\KeuanganSaya\\script.js\" -Pattern \"sarapan\" -CaseSensitive:$false)",
+        "command(git status; git add index.html script.js style.css; git commit -m \"feat: add multi-source savings \u0026 payback reasons (skip dinner, snacks, free meals, allowance)\"; git push origin main)",
+        "command(grep -n 'btnQuickSaveTrigger' script.js)",
+        "command(grep -n 'btn-quick-save-trigger' index.html)",
+        "command(npm install jsdom)",
+        "command(grep -n \"Error loading payback data\" script.js)",
+        "command(git add index.html script.js style.css; git commit -m \"fix: make quick save \u0026 wishlist manager modal triggers bulletproof with inline onclick and window scope\"; git push origin main)",
+        "command(gcloud auth list; gcloud config list)",
+        "command(Get-ChildItem \"$env:USERPROFILE\\.vscode\\extensions\" -ErrorAction SilentlyContinue | Select-Object Name; [System.Environment]::GetEnvironmentVariable(\"GOOGLE_APPLICATION_CREDENTIALS\", \"User\"); [System.Environment]::GetEnvironmentVariable(\"GOOGLE_APPLICATION_CREDENTIALS\", \"Machine\"))",
+        "command($tempDir = \"$env:TEMP\\ai-assistant-repo\"; if (Test-Path $tempDir) { Remove-Item -Recurse -Force $tempDir }; git clone https://github.com/Azriel-Fajar/AI-assistant.git $tempDir)",
+        "command(Get-ChildItem \"$env:TEMP\\ai-assistant-repo\" | Select-Object Name, Mode)",
+        "command(Get-ChildItem -Path \"$env:TEMP\\ai-assistant-repo\" -Filter \"SKILL.md\" -Recurse | Select-Object FullName)",
+        "command(Test-Path \"$env:USERPROFILE\\.gemini\\config\\skills\"; Test-Path \"$env:USERPROFILE\\.claude\\skills\"; Test-Path \"$env:USERPROFILE\\.gemini\\skills\")",
+        "command($src = \"$env:TEMP\\ai-assistant-repo\"\n$dest = \"C:\\Users\\mrblindside07\\.gemini\\config\\skills\"\n\n# 1. Copy all skills from .claude/skills to dest root\nGet-ChildItem \"$src\\.claude\\skills\" -Directory | ForEach-Object {\n    Copy-Item -Recurse -Force $_.FullName \"$dest\\\"\n}\n\n# 2. Copy entire repo files and folders to dest\nGet-ChildItem $src -Exclude \".git\" | ForEach-Object {\n    Copy-Item -Recurse -Force $_.FullName \"$dest\\\"\n}\n\n# 3. Ensure cross-browser-check and remotion-best-practices are at top level of skills\nif (Test-Path \"$src\\scripts\\cross-browser-check\") {\n    Copy-Item -Recurse -Force \"$src\\scripts\\cross-browser-check\" \"$dest\\\"\n}\nif (Test-Path \"$src\\my-video\\.agents\\skills\\remotion-best-practices\") {\n    Copy-Item -Recurse -Force \"$src\\my-video\\.agents\\skills\\remotion-best-practices\" \"$dest\\\"\n}\n\nWrite-Output \"Successfully updated skills and resources from repository.\"\n)",
+        "read_url(mrblindcode.vercel.app)",
+        "read_url(github.com)",
+        "read_url(instagram.com)",
+        "mcp(filesystem/create_directory)",
+        "mcp(filesystem/write_file)",
+        "mcp(chrome-devtools/list_pages)",
+        "mcp(chrome-devtools/navigate_page)",
+        "execute_url(mrblindcode07.vercel.app)",
+        "read_url(vt.tiktok.com)",
+        "mcp(puppeteer/puppeteer_navigate)",
+        "mcp(puppeteer/puppeteer_screenshot)",
+        "mcp(puppeteer/puppeteer_evaluate)",
+        "command(git log -n 5 --oneline)",
+        "command(Select-String -Path \"d:\\The Code\\html\\KeuanganSaya\\script.js\" -Pattern \"setupRealtimeSync|realtimeChannel|supabase.*channel|subscribe\" | ForEach-Object { \"$($_.LineNumber): $($_.Line)\" })",
+        "command(Select-String -Path \"d:\\The Code\\html\\KeuanganSaya\\script.js\" -Pattern \"subscriptions\" | ForEach-Object { \"$($_.LineNumber): $($_.Line)\" })",
+        "command(git diff --stat)",
+        "command(node \"C:\\Users\\mrblindside07\\.gemini\\antigravity\\brain\\84c9f1da-253a-4122-973d-b88dcd6d3a17\\scratch\\verify_pdf_report.cjs\")",
+        "command(Select-String -Path style.css -Pattern \"transaction-table|table-responsive\" -Context 2,5)",
+        "command(Select-String -Path index.html -Pattern \"transaction-table\" -Context 0,15)",
+        "command(Select-String -Path script.js -Pattern \"SUBSCRIPTION|subscriptionsData\" -Context 2,6)",
+        "command(node --check script.js)",
+        "command(git diff index.html)",
+        "command(git commit -m \"Fix subscriptions cross-device cloud sync and boost PageSpeed by lazy-loading Tesseract OCR\")",
+        "command(git push origin main)",
+        "read_url(vmix.com)",
+        "command($code = @'\nimport java.util.Scanner;\n\npublic class Tasi1_672025027 {\n    public static void main(String[] args) {\n        Scanner input = new Scanner(System.in);\n\n        System.out.println(\"==========================================\");\n        System.out.println(\"       PROGRAM GENERATOR NOTA BELANJA     \");\n        System.out.println(\"==========================================\");\n        \n        System.out.print(\"Masukkan Nama Pembeli        : \");\n        String namaPembeli = input.nextLine();\n\n        System.out.print(\"Masukkan Nama Barang         : \");\n        String namaBarang = input.nextLine();\n\n        System.out.print(\"Masukkan Harga Satuan Barang : Rp \");\n        double hargaSatuan = input.nextDouble();\n\n        System.out.print(\"Masukkan Jumlah Beli         : \");\n        int jumlahBeli = input.nextInt();\n\n        double totalBelanja = hargaSatuan * jumlahBeli;\n        double uangHarusDibayar = totalBelanja;\n\n        System.out.println(\"\\n------------------------------------------\");\n        System.out.println(\"Total Tagihan                : Rp \" + totalBelanja);\n        System.out.print(\"Masukkan Uang yang Dibayarkan: Rp \");\n        double uangBayar = input.nextDouble();\n\n        if (uangBayar \u003c uangHarusDibayar) {\n            double kurang = uangHarusDibayar - uangBayar;\n            System.out.println(\"\\n==========================================\");\n            System.out.println(\"[PERINGATAN] Uang yang dibayarkan KURANG!\");\n            System.out.println(\"Kekurangan Uang : Rp \" + kurang);\n            System.out.println(\"Transaksi tidak dapat diproses.\");\n            System.out.println(\"==========================================\");\n        } else {\n            double kembalian = uangBayar - uangHarusDibayar;\n\n            System.out.println(\"\\n==========================================\");\n            System.out.println(\"               NOTA BELANJA               \");\n            System.out.println(\"==========================================\");\n            System.out.println(\"1. Nama pelanggan             : \" + namaPembeli);\n            System.out.println(\"2. Barang dibeli              : \" + namaBarang);\n            System.out.println(\"3. Harga satuan               : Rp \" + hargaSatuan);\n            System.out.println(\"4. Jumlah Beli                : \" + jumlahBeli);\n            System.out.println(\"5. Total belanja              : Rp \" + totalBelanja);\n            System.out.println(\"6. Uang yang harus dibayarkan : Rp \" + uangHarusDibayar);\n            System.out.println(\"7. kembalian                  : Rp \" + kembalian);\n            System.out.println(\"==========================================\");\n\n            if (kembalian == 0) {\n                System.out.println(\"Catatan: Uang pas, terima kasih!\");\n            } else {\n                System.out.println(\"Catatan: Silakan ambil kembalian Anda.\");\n            }\n            System.out.println(\"==========================================\");\n        }\n    }\n}\n'@\nSet-Content -Path \"d:\\The Code\\java\\Tasi1_672025027.java\" -Value $code -Encoding UTF8\njavac \"d:\\The Code\\java\\Tasi1_672025027.java\"\n)",
+        "mcp(youtube-transcript/research-video)",
+        "mcp(memory/read_graph)",
+        "mcp(memory/add_observations)",
+        "command(Get-Volume | Select-Object DriveLetter, FileSystemLabel, FileSystem, DriveType, SizeRemaining, Size)"
+      ]
+    },
+    "nonWorkspaceFileAccessPolicy": "AGENT_SETTING_POLICY_ALLOW",
+    "queuedMessageDeliveryStrategy": "MESSAGE_DELIVERY_STRATEGY_NEXT_INVOCATION",
+    "remoteControlHostname": "desktop-tud737p-roving-eclipse",
+    "themeMode": "THEME_MODE_DARK",
+    "useAiCredits": true
+  }
+}
