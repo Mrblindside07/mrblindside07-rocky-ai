@@ -1,3 +1,8 @@
+---
+name: email-course-builder
+description: Turn a course outline into 7 production-ready emails for the $0 to First Website lead magnet sequence.
+---
+
 # /email-course-builder
 
 **Purpose:** Turn a course outline into 7 production-ready emails for the "$0 to First Website in 7 Days" lead magnet sequence. Outputs copy-ready emails + Brevo/Mailchimp automation setup instructions.

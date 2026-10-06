@@ -1,3 +1,8 @@
+---
+name: audit-tool-launch
+description: Guided build of the public rielcode.com/audit tool — PHP form, Playwright scraper, email capture, score logic, PDF delivery.
+---
+
 # /audit-tool-launch
 
 **Purpose:** Guided build of the public rielcode.com/audit tool — PHP form, Playwright scraper, email capture, score logic, PDF delivery.

@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 #  mrblindside07-rocky-ai: Windows Setup Script
 #  - Creates Directory Junction from repo to ~/.gemini/config/skills (No Admin required!)
 #  - Syncs GEMINI.md, config.json, & mcp_config.json
@@ -20,6 +20,7 @@ Write-Host "Created live Directory Junction: $targetSkills -> $repoDir\skills" -
 
 # 2. Copy rules & config
 Copy-Item "$repoDir\rules\GEMINI.md" "$configDir\GEMINI.md" -Force
+Copy-Item "$repoDir\rules\DESIGN.md" "$configDir\DESIGN.md" -Force
 Copy-Item "$repoDir\config\config.json" "$configDir\config.json" -Force
 Copy-Item "$repoDir\mcp\mcp_config.windows.json" "$configDir\mcp_config.json" -Force
 

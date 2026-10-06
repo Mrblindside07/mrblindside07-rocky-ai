@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Usage: ./sync.sh [pull|push "commit message"]
 
 ACTION="${1:-pull}"

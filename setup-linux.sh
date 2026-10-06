@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 # ==============================================================================
 #  mrblindside07-rocky-ai: Native Linux Setup (Arch Linux / Any Distro)
 #  - Creates Live Symlinks for Skills & Directives (Instant Git Sync!)
@@ -60,7 +60,8 @@ echo -e "${GREEN}âœ“ Live symlink: $TARGET_CLAUDE_DIR/skills -> $REPO_DIR/sk
 # Copy or symlink GEMINI.md & CLAUDE.md
 cp "$REPO_DIR/rules/GEMINI.md" "$TARGET_CONFIG_DIR/GEMINI.md"
 cp "$REPO_DIR/rules/GEMINI.md" "$TARGET_CLAUDE_DIR/CLAUDE.md"
-echo -e "${GREEN}âœ“ Installed global rules (GEMINI.md & CLAUDE.md)${NC}"
+[ -f "$REPO_DIR/rules/DESIGN.md" ] && cp "$REPO_DIR/rules/DESIGN.md" "$TARGET_CONFIG_DIR/DESIGN.md"
+echo -e "${GREEN}✓ Installed global rules (GEMINI.md, CLAUDE.md & DESIGN.md)${NC}"
 
 # 4. Config & MCP
 echo -e "\n${YELLOW}[4/5] Setting up config.json & MCP servers...${NC}"
