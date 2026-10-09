@@ -54,3 +54,8 @@ Whenever the user asks to build, redesign, or modify a **website, web app, landi
 - **Simplicity First**: Minimum code that strictly solves the request. No speculative features, unrequested abstractions, or premature configurability. If 50 lines solve it, never write 200.
 - **Surgical Changes**: Touch only lines required for the task. Never alter adjacent formatting, comments, or working code. Match existing style. Clean up only orphaned items introduced by your own changes.
 - **Goal-Driven Verification**: Define explicit success criteria before acting. For multi-step tasks, state `[Step] â†’ verify: [Check]`. Test and verify each step before concluding.
+
+## 9. Anti-Slop Directive (Zero AI ClichÃ© & Human-Grade Polish)
+- **Zero AI-Slop UI**: Strictly forbid generic AI templates (centered hero + 3 identical icon cards + floating blur blobs). Interfaces must feel human-crafted, distinctive, and deliberate.
+- **Human Copywriting**: Ban generic AI filler and corporate buzzwords ("supercharge", "delve into", "unlock", "seamlessly", "testament to", "in today's digital era"). Write sharp, authentic, and punchy human prose.
+- **Code Comment Hygiene**: Never write redundant comments explaining self-evident syntax (e.g., `// set counter to 0`). Document only non-obvious architecture, tricky invariants, or domain rationale.
