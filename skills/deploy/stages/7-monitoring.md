@@ -12,7 +12,7 @@ Clients judge Rielcode in the 30 days after launch. If you spot and fix issues b
   - Add Sentry JS snippet to `<head>`
   - Add Sentry PHP SDK to error handler
 - Alternative: LogRocket, Bugsnag, Rollbar
-- Set alert: notify Azriel on any new error in the first 7 days
+- Set alert: notify Misael on any new error in the first 7 days
 
 ### 2. Uptime monitoring
 - **UptimeRobot** (free, 50 monitors, 5-min interval) — easiest setup

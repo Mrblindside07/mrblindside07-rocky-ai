@@ -1,4 +1,4 @@
-{
+﻿{
   "plugins": {
     "android-cli-plugin": {
       "enabled": true
@@ -65,7 +65,7 @@
         "command(git add index.html script.js style.css; git commit -m \"fix: make quick save \u0026 wishlist manager modal triggers bulletproof with inline onclick and window scope\"; git push origin main)",
         "command(gcloud auth list; gcloud config list)",
         "command(Get-ChildItem \"$env:USERPROFILE\\.vscode\\extensions\" -ErrorAction SilentlyContinue | Select-Object Name; [System.Environment]::GetEnvironmentVariable(\"GOOGLE_APPLICATION_CREDENTIALS\", \"User\"); [System.Environment]::GetEnvironmentVariable(\"GOOGLE_APPLICATION_CREDENTIALS\", \"Machine\"))",
-        "command($tempDir = \"$env:TEMP\\ai-assistant-repo\"; if (Test-Path $tempDir) { Remove-Item -Recurse -Force $tempDir }; git clone https://github.com/Azriel-Fajar/AI-assistant.git $tempDir)",
+        "command($tempDir = \"$env:TEMP\\ai-assistant-repo\"; if (Test-Path $tempDir) { Remove-Item -Recurse -Force $tempDir }; git clone https://github.com/Mrblindside07/AI-assistant.git $tempDir)",
         "command(Get-ChildItem \"$env:TEMP\\ai-assistant-repo\" | Select-Object Name, Mode)",
         "command(Get-ChildItem -Path \"$env:TEMP\\ai-assistant-repo\" -Filter \"SKILL.md\" -Recurse | Select-Object FullName)",
         "command(Test-Path \"$env:USERPROFILE\\.gemini\\config\\skills\"; Test-Path \"$env:USERPROFILE\\.claude\\skills\"; Test-Path \"$env:USERPROFILE\\.gemini\\skills\")",

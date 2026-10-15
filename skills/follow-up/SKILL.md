@@ -1,6 +1,6 @@
 ---
 name: follow-up
-description: Use when Azriel needs to draft a WhatsApp follow-up message for a lead or active client. Covers check-ins, project updates, upsells, and no-response nudges.
+description: Use when Misael needs to draft a WhatsApp follow-up message for a lead or active client. Covers check-ins, project updates, upsells, and no-response nudges.
 ---
 
 ## What This Skill Does

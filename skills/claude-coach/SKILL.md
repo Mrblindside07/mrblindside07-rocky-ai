@@ -1,11 +1,11 @@
 ---
 name: claude-coach
-description: Use when Azriel wants help using Claude Code more efficiently -- grade or rewrite a prompt, decide which skill to use and in what order, recommend an effort level, or learn an Opus 4.8 prompting technique. Triggers on "/claude-coach", "make this prompt better", "which skill should I use", "how do I prompt this", "what effort level".
+description: Use when Misael wants help using Claude Code more efficiently -- grade or rewrite a prompt, decide which skill to use and in what order, recommend an effort level, or learn an Opus 4.8 prompting technique. Triggers on "/claude-coach", "make this prompt better", "which skill should I use", "how do I prompt this", "what effort level".
 ---
 
 ## What This Skill Does
 
-Coaches Azriel on getting the most out of Claude Code. Knowledge source: `references/claude-code-mastery.md` (always read it first). Four modes, routed by the args.
+Coaches Misael on getting the most out of Claude Code. Knowledge source: `references/claude-code-mastery.md` (always read it first). Four modes, routed by the args.
 
 ## Steps
 
@@ -59,7 +59,7 @@ Set: effort=[...], model=Opus 4.8
 ### Mode C -- Teach a technique
 
 1. Find the topic in the reference (effort, frontend defaults, anti-overengineering, long context, etc.).
-2. Output: the rule in 2-3 lines, the relevant snippet, and one concrete example tied to Azriel's work (Rielcode site, college task).
+2. Output: the rule in 2-3 lines, the relevant snippet, and one concrete example tied to Misael's work (Rielcode site, college task).
 
 ### Mode D -- Cheat sheet
 

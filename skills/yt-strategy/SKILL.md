@@ -1,6 +1,6 @@
 ---
 name: yt-strategy
-description: Use when Azriel wants to plan YouTube channel strategy for Rielcode. Generates channel direction, content pillars, posting cadence, niche positioning, and 30-day launch roadmap. Run once at channel kickoff, then quarterly.
+description: Use when Misael wants to plan YouTube channel strategy for Rielcode. Generates channel direction, content pillars, posting cadence, niche positioning, and 30-day launch roadmap. Run once at channel kickoff, then quarterly.
 ---
 
 ## What This Skill Does
@@ -20,7 +20,7 @@ Locks in YouTube Shorts strategy for Rielcode's channel. Output is a saved strat
 
 ### 1. Confirm or refresh inputs
 
-Ask Azriel:
+Ask Misael:
 - Channel handle decided? (suggest `@rielcode` if not)
 - Any niches to exclude? (e.g. crypto, no-code platforms)
 - Competitor channels he likes? (3-5 URLs or names, optional)
@@ -68,7 +68,7 @@ Also add line to `decisions/log.md`:
 
 ### 7. Next steps
 
-Tell Azriel:
+Tell Misael:
 - Run `/yt-batch` to generate first week of scripts
 - Run `/yt-script` for one-off topic ideas
 - Re-run `/yt-strategy` quarterly or when pivoting

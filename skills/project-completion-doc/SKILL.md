@@ -1,6 +1,6 @@
 ---
 name: project-completion-doc
-description: Use when Azriel needs a project completion or handoff document for a finished client website. Auto-scans the project directory, asks for missing details (admin password, hosting, support terms), and generates a branded Rielcode PDF saved to projects/[client]/completion-doc.pdf. Triggers include "make completion doc", "handoff document", "project completion PDF".
+description: Use when Misael needs a project completion or handoff document for a finished client website. Auto-scans the project directory, asks for missing details (admin password, hosting, support terms), and generates a branded Rielcode PDF saved to projects/[client]/completion-doc.pdf. Triggers include "make completion doc", "handoff document", "project completion PDF".
 argument-hint: "[project-path]"
 ---
 
@@ -49,7 +49,7 @@ Run these in parallel where possible:
 - **Language detection** — Sample README.md + visible HTML body text. If clearly Indonesian (kata kunci: `tentang`, `hubungi`, `layanan`, `beranda`), set `LANG=id`. Else `LANG=en`. If mixed, ask.
 - **Client info** — If `projects/[client-name]/README.md` exists in JARVIS, read it for client name, completion date, project summary.
 
-Print a one-line scan summary so Azriel sees what was found before any questions.
+Print a one-line scan summary so Misael sees what was found before any questions.
 
 ### 3. Ask only for gaps
 
@@ -65,7 +65,7 @@ Use `AskUserQuestion`. Skip any item already filled by the scan. Possible questi
 - Live URL (if not in README)
 - Project summary (1 sentence, only if README missing)
 
-For sensitive data (admin password): tell Azriel to paste it; remind him it lives in the PDF only and is never re-echoed in chat.
+For sensitive data (admin password): tell Misael to paste it; remind him it lives in the PDF only and is never re-echoed in chat.
 
 ### 4. Resolve sections to omit
 

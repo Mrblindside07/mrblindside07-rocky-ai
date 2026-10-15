@@ -1,6 +1,6 @@
 ---
 name: site-review
-description: Use when Azriel wants to review a website (client site, prospect site, or his own) and get auto-calculated cost estimate + upgrade suggestions based on Rielcode pricing. Detects features (forms, e-commerce, chatbot, schema, speed, SEO, analytics), maps to price tags, outputs quote-ready breakdown.
+description: Use when Misael wants to review a website (client site, prospect site, or his own) and get auto-calculated cost estimate + upgrade suggestions based on Rielcode pricing. Detects features (forms, e-commerce, chatbot, schema, speed, SEO, analytics), maps to price tags, outputs quote-ready breakdown.
 ---
 
 ## What This Skill Does
@@ -8,18 +8,18 @@ description: Use when Azriel wants to review a website (client site, prospect si
 Reviews any live website and outputs:
 1. Feature inventory (what the site has and lacks)
 2. Cost estimate to build it from scratch at Rielcode rates
-3. Upgrade suggestions to make Azriel's workflow more automatic and the site more valuable
+3. Upgrade suggestions to make Misael's workflow more automatic and the site more valuable
 4. Optional: WhatsApp-ready upsell message for an existing client
 
 **Use cases:**
 - Reviewing a prospect's current site before quoting a rebuild
 - Reviewing a delivered client site to suggest upgrades (upsell)
 - Reviewing competitors to benchmark Rielcode pricing
-- Reviewing Azriel's own portfolio/projects
+- Reviewing Misael's own portfolio/projects
 
 ## Pricing Reference
 
-Pricing rates live in `references/rielcode-pricing.md`. If file is missing or empty on first run, the skill prompts Azriel to fill it in and saves. Default starter structure:
+Pricing rates live in `references/rielcode-pricing.md`. If file is missing or empty on first run, the skill prompts Misael to fill it in and saves. Default starter structure:
 
 ```
 BASE PACKAGES (IDR):
@@ -58,7 +58,7 @@ Ask in one message:
 
 ### 2. Check pricing file
 
-Read `references/rielcode-pricing.md`. If missing, create with default structure above. Tell Azriel: "Pricing file initialized at references/rielcode-pricing.md. Review and edit anytime."
+Read `references/rielcode-pricing.md`. If missing, create with default structure above. Tell Misael: "Pricing file initialized at references/rielcode-pricing.md. Review and edit anytime."
 
 ### 3. Run site audit
 
@@ -128,7 +128,7 @@ Save full report to `projects/[client-or-domain]/site-review-YYYY-MM-DD.md`. If 
 
 ### 8. Workflow upgrade scan (bonus)
 
-End every review with one suggestion to make Azriel's own workflow more automatic. Examples:
+End every review with one suggestion to make Misael's own workflow more automatic. Examples:
 - "You reviewed 3 sites this week -- consider a `/weekly-prospects` skill that batches site reviews."
 - "This client has had 2 upsells -- add to `lead-tracker` with upsell tag."
 

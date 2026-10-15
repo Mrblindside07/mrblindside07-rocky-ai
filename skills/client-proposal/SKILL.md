@@ -1,6 +1,6 @@
 ---
 name: client-proposal
-description: Use when Azriel needs to generate a client proposal. Takes project scope, budget, and timeline, then outputs a professional proposal document ready to send or adapt.
+description: Use when Misael needs to generate a client proposal. Takes project scope, budget, and timeline, then outputs a professional proposal document ready to send or adapt.
 ---
 
 ## What This Skill Does
@@ -16,7 +16,7 @@ Ask the user for the following in one message:
 - Client name or identifier
 - Project type (custom website, landing page, e-commerce, other)
 - Key requirements (what does the client want? 2-4 bullet points is fine)
-- Budget range (or "I'll set it" if Azriel is proposing the price)
+- Budget range (or "I'll set it" if Misael is proposing the price)
 - Desired deadline (or "TBD")
 - Any specific technologies or preferences (e.g. WordPress, custom HTML/CSS, specific design style)
 - How will this be sent? (WhatsApp message, formal PDF-style document, or both)
@@ -82,7 +82,7 @@ TERMS
 
 TO PROCEED
 Reply to confirm scope and transfer the deposit to:
-<payment details -- Azriel fills this in>
+<payment details -- Misael fills this in>
 
 Questions? Reply via WhatsApp.
 

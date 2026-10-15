@@ -1,0 +1,59 @@
+# Memory Index
+
+- [DP Terms 30/70](feedback_dp_terms_30_70.md) -- Rielcode payment = DP 30% upfront / 70% on finish (new quotes; in-progress clients keep 20/80); hosting bought only after DP; never 50/50
+
+- [WA No Customer Pleasing](feedback_wa_no_customer_pleasing.md) -- WA/lead drafts professional + plain, no hype/pleasing openers ("wah cocok banget kak"); state facts direct
+
+- [Cust 3 Frontiersin Clone](project_cust3_frontiersin_clone.md) -- wants frontiersin.org clone "sama persis namun dimodifikasi", self-picked Premium; lock LOOK vs FUNCTION before quoting
+- [Cust 2 Call](project_cust2_call.md) -- call 2026-06-15 17:00, in Google Calendar; prep scope questions
+- [Price By Templates Not Pages](feedback_price_by_templates_not_pages.md) -- quote by distinct templates + features not URL count; Laravel = 1 template for infinite articles
+- [Leads vs Customers Reference Rule](feedback_leads_vs_customers_reference.md) -- "leads" = Leads table; "customer/client" = Active Potential Customers table in leads.md
+
+- [Makalah Format vs Tone](feedback_makalah_format_vs_tone.md) -- tiru struktur/penomoran template dosen, JANGAN tiru diksinya; footnote lengkap + kalimat reflektif bentuk pertanyaan = suara Misael
+- [Academic Credentials](user_academic_credentials.md) -- name Misael Fajar Wicaksono, NIM 672025121, use on college work
+- [Viral Ad System](project_viral_ad_system.md) -- meta/creative/ 8-step ad SOP + swipe database (thumbnails/titles) + hook bank; "log swipes" reads folders
+- [Reddit Blocked Indonesia](feedback_reddit_blocked_indonesia.md) -- Reddit blocked in ID; never use for ID market research, use TikTok/IG/FB/Kaskus instead
+- [Projects Layout Grid](feedback_projects_layout.md) -- rc-prj__side is 2-tile grid; adding a 3rd tile breaks layout
+- [Parallaxnet Canada Client](project_parallaxnet_client.md) -- client name is Ali, communicates via WhatsApp
+- [Rielcode Outreach Campaign](project_rielcode_outreach.md) -- 5 Salatiga cafe leads, no website, cold messages ready, not yet contacted (2026-04-25)
+- [Rielcode Portfolio Site](project_portfolio_site.md) -- already live at portfolio.rielcode.com, do not suggest building one
+- [Lead Message Opera Preference](feedback_lead_message_opera.md) -- always open WhatsApp lead links in Opera browser
+- [Rielcode Invoice Currency](project_rielcode_invoice_currency.md) -- invoices must support IDR and USD (local + international clients)
+- [Rielcode Testimonials System](project_testimonials_system.md) -- form at rielcode-testimonials/, admin panel in Rielcode/admin.php?table=testimonials, rebuilt after GitHub push loss
+- [Google CLI Preference](feedback_google_cli.md) -- use tools/google/ CLI via Bash (gcal/gmail/gdrive), NOT MCP
+- [Subnetting Reference](reference_subnetting.md) -- IPv4 prefix/mask/borrowing formulas, common prefix table, block size calculation
+- [Claude Code Mastery](reference_claude_code_mastery.md) -- Opus 4.8 prompting + agentic best practices; full guide in references/, coached via /claude-coach
+- [Meta Ads WA Lead Gen](project_meta_ads_wa_lead_gen.md) -- IDR 18k/day engagement campaign, 5 leads at IDR 5,484 CPL, all cold; auto-reply and follow-up fixes documented
+- [Meta Ads WA Lead Gen](project_meta_ads_wa_leadgen.md) -- active campaign in learning, don't edit till ~Jun 5; objective mismatch (clicks vs WA msgs), fix = new campaign
+- [Messenger Client History](project_messenger_client_history.md) -- client DMs synced to meta/clients/; read them when asked about a lead, refresh via node meta/dms-sync.mjs
+- [Rielcode Audit Tool](project_audit_tool.md) -- free audit lead tool at rielcode.com/audit, 3 phases built 2026-06-03, pure-PHP scoring (no Node), admin tab + PDF email
+- [Meta Ads Dashboard](reference_meta_dashboard.md) -- Flask app; run via `python -m flask --app meta.dashboard.app run` from project root; shows all campaigns + 30d insights
+- [Flask Module Run Command](feedback_flask_run_command.md) -- apps with relative imports must use `python -m flask --app ...`, not `python app.py`
+- [Rielcode Rebrand Assets](reference_rielcode_rebrand_assets.md) -- rebrand logos at C:\xampp\htdocs\Rielcode-laravel\public\brand\ (PNG+SVG, all variants)
+- [Rielcode Laravel App](project_rielcode_laravel_app.md) -- business app MVP is Laravel+Filament at C:\xampp\htdocs\Rielcode-laravel; god nodes Package/AuditLogger/OrderPayment
+- [PowerShell Python UTF-8 Pitfalls](feedback_powershell_python_utf8.md) -- PS > redirect = UTF-16 BOM breaks JSON; write .py files not python -c; set PYTHONIOENCODING=utf-8
+- [Follow-up No Em Dashes](feedback_follow_up_no_em_dashes.md) -- follow-up and WA messages must never use em dashes, rewrite with commas or periods
+- [Meta Ads WA Quick Replies](project_meta_ads_wa_quick_replies.md) -- 6 WA Business presets + greeting for Meta Ads leads; pricing from references/rielcode-pricing.md
+- [Rielcode Demo Sites](project_demo_sites.md) -- 12 demo sites (8 static niche + 3 commerce + rekber) at public/demos/ in rielcode-laravel, hub shows all, served at rielcode.com/demos/{slug}/; reseller = ecommerce-reseller
+- [Static Demo Trailing Slash](feedback_static_trailing_slash.md) -- open /demos with trailing slash or relative CSS/JS 404s; no npm build needed
+- [Remotion Video Project](reference_remotion_video_project.md) -- my-video/ builds all Rielcode video/ad assets; reuse theme + helpers, render from there
+- [Video Voiceover Workflow](feedback_video_voiceover.md) -- Misael supplies AI VO mp3s externally (no TTS key); wire per-scene clips into Remotion
+- [Rielcode Redesign Launch](project_redesign_launch.md) -- rielcode.com redesign launch 2026-06-10, brand + 7 referral video sets built, LAUNCH10 promo, gate = discount feature live
+- [Serialize Remotion Renders](feedback_remotion_serialize_renders.md) -- never run two Remotion renders at once; concurrent collide, silently kill one mid-batch (exit 0 lies); verify file counts
+- [Close Gap Not Lead Gen](feedback_close_gap_not_leadgen.md) -- Rielcode bottleneck is follow-up/closing not lead-gen; don't suggest new channels, fix the close
+- [Cold Outreach Central Java Jun 2026](project_coldoutreach_centraljava_2026-06.md) -- 10 leads (cafe/salon/dental/gym/real-estate) with IG + demo links + locked ID message tone
+- [Meta Ads v3 Finding (corrected Aug 2026)](project_meta_ads_v3_finding.md) -- 147 convos, 0 confirmed payers; cheap cost-per-convo = vanity metric; lead with Mulai 1jt, judge on quote rate not CPL
+- [Probability & Statistics Course](reference_stats_course.md) -- lecturer Radius Tanone (UKSW), assignments emailed with PDF attached, Ch2 freq dist + Ch3 center/dispersion
+- [Stats Assignment Build](reference_stats_assignment.md) -- stats-presentation.html renders to PDF via Playwright chromium; .compact class avoids A4 overflow, .ovl span for x-bar
+- [Parallaxnet Siber Indonesia Research](reference_parallaxnet_indonesia.md) -- report at research/parallaxnet-siber-indonesia.md; PT Parallaxnet Siber Indonesia = Indonesian EdTech arm of US Parallaxnet, Canada entity unverified
+- [Parallaxnet AIOS Project](project_parallaxnet_aios.md) -- AIOS workspace at Documents\Parallaxnet AI + PHP dashboard at xampp; waiting on Yurika data + subdomain name
+- [Faster-Whisper Local Setup](reference_faster_whisper.md) -- use python3.13 not python; nvidia pip wheels + add_dll_directory for GPU; ID/EN mix OK
+- [Never Revert to v1 Messenger](feedback_never_suggest_revert_v1_messenger.md) -- v1=Messenger paused on purpose, v3=WhatsApp correct; never suggest un-pausing v1 over cheaper CPL
+- [WA Greeting Short Ask Need First](feedback_wa_greeting_short_ask_need.md) -- WA auto-greeting short, ask need first, no price/demo dump on first message
+- [Remotion Fast Paced 3s Frame](feedback_remotion_fast_paced_3s_frame.md) -- ad renders fast-paced, max 3s (90 frames) per scene, use new redesign theme.ts not old design
+- [Ad Script Customer POV](feedback_ad_script_customer_pov.md) -- ad VO/scripts from customer POV (what THEY get), not seller POV (aku buat/kami bantu)
+- [Manim Setup](reference_manim_setup.md) -- Manim v0.20.1 global uv tool on py3.13 + FFmpeg; SAC disabled for PyAV DLLs; ad starter at manim-ads/rielcode_ad.py
+- [Free Demo Ads A6-A8](project_free_demo_ads.md) -- 3 new v3 ads (Free Demo/Risk-Free/Fast) built in 4 ratios, VO 2x + music, demo-cafe/salon panels, uploaded to test vs Contoh Gratis
+- [Ad Test Dupe Winner](feedback_ad_test_dupe_winner.md) -- dupe winning ad to test, keep control ON, pause dead ads only after new ads prove; new ads start Processing/Rp0
+- [WA Ad Icebreakers](feedback_wa_ad_icebreakers.md) -- click-to-WA icebreakers must be Indonesian + demo/price driven, not Meta English defaults; edit in ad template
+- [Demo Msg Rough Design Note](feedback_demo_msg_rough_design.md) -- every demo-send WA msg must note design is rough draft + customizable

@@ -1,13 +1,13 @@
 ---
 name: yt-batch
-description: Use when Azriel wants a full week of YouTube Shorts content planned in one go. Generates 2-5 scripts following the channel strategy, balanced across pillars, with topics, hooks, full scripts, shot lists, and a production schedule. Run every Sunday for week ahead.
+description: Use when Misael wants a full week of YouTube Shorts content planned in one go. Generates 2-5 scripts following the channel strategy, balanced across pillars, with topics, hooks, full scripts, shot lists, and a production schedule. Run every Sunday for week ahead.
 ---
 
 ## What This Skill Does
 
 Batches a week of Shorts scripts in one run. Designed for Sunday batch day (record + edit all at once).
 
-Reads `projects/youtube-rielcode/strategy.md` for channel context. If missing, tell Azriel to run `/yt-strategy` first.
+Reads `projects/youtube-rielcode/strategy.md` for channel context. If missing, tell Misael to run `/yt-strategy` first.
 
 ## Steps
 
@@ -33,7 +33,7 @@ For each topic, generate:
 - Hook (8 words max)
 - Why this topic now (relevance reason)
 
-Show topic list. Ask Azriel: "Approve, swap, or regenerate any?"
+Show topic list. Ask Misael: "Approve, swap, or regenerate any?"
 
 ### 3. Full scripts (after approval) — MCP-batched
 
@@ -69,7 +69,7 @@ DESCRIPTION: ...
 
 ### 4. Production schedule (MCP-compressed)
 
-End output with batch production plan. With MCPs handling voiceover + thumbs, Azriel's manual time drops from 5hrs → 2-3hrs.
+End output with batch production plan. With MCPs handling voiceover + thumbs, Misael's manual time drops from 5hrs → 2-3hrs.
 
 ```
 BATCH DAY PLAN (with ElevenLabs + Canva MCPs):
@@ -87,7 +87,7 @@ Save full batch markdown to `projects/youtube-rielcode/batches/YYYY-WW.md`. List
 
 - Save full batch to `projects/youtube-rielcode/batches/YYYY-WW.md` (week number)
 - Offer to add publish dates to Google Calendar via `/gcal-schedule`
-- Ask if Azriel wants reminder for Sunday batch day
+- Ask if Misael wants reminder for Sunday batch day
 
 ### 6. Track in priorities
 
@@ -100,4 +100,4 @@ Add 1 line to `context/current-priorities.md` under Active Projects if YouTube b
 - Every batch has at least 1 build showcase (lead-gen priority).
 - Hooks across the week must be varied (no two openings with same pattern).
 - All CTAs rotate -- not all 5 ending with same CTA.
-- If Azriel skips a week, don't auto-fill -- just note "no batch this week" in calendar.
+- If Misael skips a week, don't auto-fill -- just note "no batch this week" in calendar.

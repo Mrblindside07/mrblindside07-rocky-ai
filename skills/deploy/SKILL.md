@@ -1,12 +1,12 @@
 ---
 name: deploy
-description: Use when Azriel wants to track, advance, or report on a project's 7-stage deployment pipeline (QA, Security, CI/CD, Performance, DNS, Rollout, Monitoring). Manages per-project deployment.md state, central deployments/index.md dashboard, sends ntfy.sh push on stage complete. Triggers include "/deploy", "deployment pipeline", "next deploy stage", "mark stage complete".
+description: Use when Misael wants to track, advance, or report on a project's 7-stage deployment pipeline (QA, Security, CI/CD, Performance, DNS, Rollout, Monitoring). Manages per-project deployment.md state, central deployments/index.md dashboard, sends ntfy.sh push on stage complete. Triggers include "/deploy", "deployment pipeline", "next deploy stage", "mark stage complete".
 argument-hint: "[init|status|next|guide|complete|list] [slug] [stage]"
 ---
 
 ## What This Skill Does
 
-Every Rielcode project must pass 7 deployment stages before going live. This skill tracks each project's pipeline state in `projects/[slug]/deployment.md`, maintains a central `deployments/index.md` dashboard, and guides Azriel through one stage at a time. Phone push fires on every stage win.
+Every Rielcode project must pass 7 deployment stages before going live. This skill tracks each project's pipeline state in `projects/[slug]/deployment.md`, maintains a central `deployments/index.md` dashboard, and guides Misael through one stage at a time. Phone push fires on every stage win.
 
 ---
 
@@ -80,7 +80,7 @@ Show one project's pipeline state.
 
 ### `next [slug]`
 
-Walk Azriel through the next uncompleted stage.
+Walk Misael through the next uncompleted stage.
 
 **Steps:**
 1. Read `projects/[slug]/deployment.md` → get `current_stage`.
@@ -141,7 +141,7 @@ Show the central dashboard.
 
 ### `detect [slug]`
 
-Auto-scan project for evidence that each stage's work is done. Suggests stages ready to mark complete. **Never auto-ticks** — Azriel confirms each suggestion.
+Auto-scan project for evidence that each stage's work is done. Suggests stages ready to mark complete. **Never auto-ticks** — Misael confirms each suggestion.
 
 **Steps:**
 

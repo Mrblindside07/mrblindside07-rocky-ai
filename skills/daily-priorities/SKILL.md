@@ -1,6 +1,6 @@
 ---
 name: daily-priorities
-description: Use when Azriel wants to know what to focus on today. Reads current priorities, active projects, and deadlines, then outputs a ranked action list for the day.
+description: Use when Misael wants to know what to focus on today. Reads current priorities, active projects, and deadlines, then outputs a ranked action list for the day.
 ---
 
 ## What This Skill Does

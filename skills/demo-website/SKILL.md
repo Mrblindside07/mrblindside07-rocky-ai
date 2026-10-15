@@ -1,6 +1,6 @@
 ---
 name: demo-website
-description: Use when Azriel needs to build a demo landing page for a potential client (outreach or inbound). Asks for business name and industry, then generates a tailored modern minimalistic one-page landing page saved to htdocs.
+description: Use when Misael needs to build a demo landing page for a potential client (outreach or inbound). Asks for business name and industry, then generates a tailored modern minimalistic one-page landing page saved to htdocs.
 argument-hint: "[business name] [industry]"
 ---
 

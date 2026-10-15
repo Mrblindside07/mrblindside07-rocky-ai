@@ -1,6 +1,6 @@
 ---
 name: new-project
-description: Use when Azriel wants to start a new personal project (not a client project), such as a portfolio site, personal app, tool, or side project.
+description: Use when Misael wants to start a new personal project (not a client project), such as a portfolio site, personal app, tool, or side project.
 disable-model-invocation: true
 argument-hint: [project name or description]
 ---

@@ -1,13 +1,13 @@
 ---
 name: agent-builder
-description: Use when Azriel wants to create a custom subagent, build a specialized AI worker, automate a repeated side-task into its own agent, or says "build me an agent", "make a subagent", "agent builder", or "I keep doing X manually". Interviews him about the workflow, then writes a ready-to-use subagent file to ~/.claude/agents/.
+description: Use when Misael wants to create a custom subagent, build a specialized AI worker, automate a repeated side-task into its own agent, or says "build me an agent", "make a subagent", "agent builder", or "I keep doing X manually". Interviews him about the workflow, then writes a ready-to-use subagent file to ~/.claude/agents/.
 argument-hint: [what the agent should do, optional]
 disable-model-invocation: true
 ---
 
 ## What This Skill Does
 
-Builds a custom Claude Code **subagent** (not a skill) tailored to one of Azriel's repeated workflows. A subagent runs in its own context window, returns only a summary, and can have restricted tools, its own model, and persistent memory. Use this when the same kind of side-task keeps flooding the main conversation (research, test runs, log triage, lead lookups) or when a focused worker with a fixed system prompt would help.
+Builds a custom Claude Code **subagent** (not a skill) tailored to one of Misael's repeated workflows. A subagent runs in its own context window, returns only a summary, and can have restricted tools, its own model, and persistent memory. Use this when the same kind of side-task keeps flooding the main conversation (research, test runs, log triage, lead lookups) or when a focused worker with a fixed system prompt would help.
 
 Output: one markdown file at `~/.claude/agents/<name>.md`, available in every project on this machine.
 
@@ -21,7 +21,7 @@ Read [reference.md](reference.md) for the full frontmatter field table, tool res
 
 ## Step 0: Suggest from context (if no clear ask)
 
-If the argument is empty or vague, before interviewing, read these to propose 2-3 high-value subagent ideas grounded in Azriel's actual work:
+If the argument is empty or vague, before interviewing, read these to propose 2-3 high-value subagent ideas grounded in Misael's actual work:
 
 - `context/current-priorities.md`
 - `context/work.md`
@@ -124,14 +124,14 @@ Do NOT:
 - <hard boundaries>
 ```
 
-Encoding: write UTF-8, no BOM (the Write tool already does this). No em dashes in any user-facing message text per Azriel's style rules.
+Encoding: write UTF-8, no BOM (the Write tool already does this). No em dashes in any user-facing message text per Misael's style rules.
 
 ---
 
 ## Step 4: Verify & hand off
 
 - Confirm the file exists at `~/.claude/agents/<name>.md`.
-- Tell Azriel: subagents load at session start, so he must **restart the session** for a file-created subagent to be invocable (or it works immediately if created via `/agents`).
+- Tell Misael: subagents load at session start, so he must **restart the session** for a file-created subagent to be invocable (or it works immediately if created via `/agents`).
 - Show how to call it: `@agent-<name> <task>` or "use the <name> subagent to ...".
 
 ---

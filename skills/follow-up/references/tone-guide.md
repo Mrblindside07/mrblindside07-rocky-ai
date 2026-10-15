@@ -1,10 +1,10 @@
-# Azriel's WA Message Tone Guide
+# Misael's WA Message Tone Guide
 
 ## The Voice
 
 Casual, warm, short. Feels like a real person texting, not a business replying.
 
-## Approved Example (from Azriel, 2026-06-05)
+## Approved Example (from Misael, 2026-06-05)
 
 > wah keren kak,
 > kira kira website seperti apa yang bisa kamu bantu untuk bisnis kakak?
@@ -20,7 +20,7 @@ Casual, warm, short. Feels like a real person texting, not a business replying.
 - Short question at the end, open-ended, lets the lead define what they want
 - Feels like talking to a person, not a business
 
-## Approved Example 2 (from Azriel, 2026-06-05) -- feature list
+## Approved Example 2 (from Misael, 2026-06-05) -- feature list
 
 > untuk website tour dan travel, fitur yang kami sarankan antara lain:
 > 1. halaman paket wisata lengkap dengan harga dan itinerary

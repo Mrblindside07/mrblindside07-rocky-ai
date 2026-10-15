@@ -1,11 +1,11 @@
 ---
 name: lead-tracker
-description: Use when Azriel wants to add, view, update, or act on leads. Manages the full outreach pipeline from cold to closed, with phone notifications and WhatsApp deep links.
+description: Use when Misael wants to add, view, update, or act on leads. Manages the full outreach pipeline from cold to closed, with phone notifications and WhatsApp deep links.
 ---
 
 ## What This Skill Does
 
-Manages a local CRM stored in `leads/leads.md`. Tracks leads through the full sales pipeline, sends push notifications to Azriel's phone for overdue leads, and generates pre-filled WhatsApp links to message customers.
+Manages a local CRM stored in `leads/leads.md`. Tracks leads through the full sales pipeline, sends push notifications to Misael's phone for overdue leads, and generates pre-filled WhatsApp links to message customers.
 
 ---
 
@@ -134,7 +134,7 @@ Generate a pre-filled WhatsApp link to message a lead.
 3. Draft a short, natural WhatsApp message based on the lead's stage:
    - `cold`: Use this exact template (replace [BUSINESS] with the business name):
      ```
-     Halo, nama saya Azriel, web developer dari Salatiga. Saya membuat website untuk bisnis-bisnis lokal di sini.
+     Halo, nama saya Misael, web developer dari Salatiga. Saya membuat website untuk bisnis-bisnis lokal di sini.
 
      Saya perhatikan [BUSINESS] belum memiliki website, apakah benar begitu? Apakah ada kemungkinan [BUSINESS] butuh website? Kalau benar, saya dengan senang hati membantu.
 

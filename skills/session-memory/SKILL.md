@@ -1,6 +1,6 @@
 ---
 name: session-memory
-description: Use when Azriel says "session memory", "remember this session", "save what we talked about", "commit to memory", or "/session-memory" -- saves durable facts from the current conversation into the persistent memory system.
+description: Use when Misael says "session memory", "remember this session", "save what we talked about", "commit to memory", or "/session-memory" -- saves durable facts from the current conversation into the persistent memory system.
 disable-model-invocation: true
 ---
 
@@ -41,7 +41,7 @@ nothing.
 **Step 1 -- Scan the session.** Review the full conversation. Identify durable facts
 worth persisting, classified into the 4 memory types:
 
-- `user` -- who Azriel is (role, expertise, preference about himself)
+- `user` -- who Misael is (role, expertise, preference about himself)
 - `feedback` -- guidance or corrections on how Claude should work (include the why)
 - `project` -- ongoing work, goals, constraints not derivable from code or git
 - `reference` -- pointers to external resources (URLs, dashboards, tickets)

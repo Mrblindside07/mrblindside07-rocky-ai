@@ -1,6 +1,6 @@
 ---
 name: audit-short
-description: Use when Azriel wants to audit a prospect's website (especially Salatiga cafes/SMBs) and turn it into a 60s YouTube Short plus a tag-on-IG + DM follow-up sequence. Combines /site-review + /yt-script + /follow-up into one pipeline. Generates content + warm lead in one move.
+description: Use when Misael wants to audit a prospect's website (especially Salatiga cafes/SMBs) and turn it into a 60s YouTube Short plus a tag-on-IG + DM follow-up sequence. Combines /site-review + /yt-script + /follow-up into one pipeline. Generates content + warm lead in one move.
 ---
 
 ## What This Skill Does
@@ -96,7 +96,7 @@ If interested, I'd build the full rebuild for IDR 2.499jt (Pro Plan, ~10 days). 
 
 Either way, big fan of what you're building. Reply only if useful.
 
-— Azriel, Rielcode
+— Misael, Rielcode
 ```
 
 Save to `projects/youtube-rielcode/audit-shorts/[slug]-dm.md`.

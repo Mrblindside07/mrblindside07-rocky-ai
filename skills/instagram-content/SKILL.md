@@ -1,6 +1,6 @@
 ---
 name: instagram-content
-description: Use when Azriel needs Instagram content for Rielcode. Generates professional captions and hashtags for portfolio showcases, service promotions, or educational posts.
+description: Use when Misael needs Instagram content for Rielcode. Generates professional captions and hashtags for portfolio showcases, service promotions, or educational posts.
 ---
 
 ## What This Skill Does

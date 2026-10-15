@@ -1,6 +1,6 @@
 ---
 name: repurpose-project
-description: Use when Azriel finishes delivering a client project and wants to squeeze 3 marketing assets out of it. Auto-generates a YouTube Short script (before/after reveal), Instagram carousel copy (5 slides), and a written case study for rielcode.com/portfolio. Pipeline runs once per completed project.
+description: Use when Misael finishes delivering a client project and wants to squeeze 3 marketing assets out of it. Auto-generates a YouTube Short script (before/after reveal), Instagram carousel copy (5 slides), and a written case study for rielcode.com/portfolio. Pipeline runs once per completed project.
 ---
 
 ## What This Skill Does
@@ -16,7 +16,7 @@ Reads `projects/youtube-rielcode/strategy.md` for YT tone + CTA rotation. Reads 
 ## When to Run
 
 - Run within 7 days of project delivery (memory still fresh).
-- Auto-run as final step of `/project-completion-doc` if Azriel agrees.
+- Auto-run as final step of `/project-completion-doc` if Misael agrees.
 - Required input: project folder path (e.g. `projects/parallaxnet-canada/`).
 
 ## Steps
@@ -29,7 +29,7 @@ Read these from the project folder:
 - Final delivered URL
 - Package used (from order, or ask)
 
-Ask Azriel in one message if any of these are missing:
+Ask Misael in one message if any of these are missing:
 - Final live URL?
 - What package did client pay for? (Student/Starter/Pro/Premium/Custom)
 - Before-state URL (their old site) or "no prior site"?

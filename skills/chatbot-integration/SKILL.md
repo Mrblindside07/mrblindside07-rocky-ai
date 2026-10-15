@@ -1,6 +1,6 @@
 ---
 name: chatbot-integration
-description: Use when Azriel wants to add an AI chatbot to a PHP/XAMPP client project. Scans the project, generates OpenAI-powered floating chat widget (CSS, JS, PHP handler), and injects it into the shared footer.
+description: Use when Misael wants to add an AI chatbot to a PHP/XAMPP client project. Scans the project, generates OpenAI-powered floating chat widget (CSS, JS, PHP handler), and injects it into the shared footer.
 argument-hint: "[optional: project root path]"
 disable-model-invocation: true
 ---

@@ -1,6 +1,6 @@
 ---
 name: yt-script
-description: Use when Azriel needs a single YouTube Short script for Rielcode. Generates hook, body, CTA, voiceover-ready script (45-60s), shot list (no-face screen recording), and on-screen text overlays for one topic.
+description: Use when Misael needs a single YouTube Short script for Rielcode. Generates hook, body, CTA, voiceover-ready script (45-60s), shot list (no-face screen recording), and on-screen text overlays for one topic.
 ---
 
 ## What This Skill Does
@@ -11,7 +11,7 @@ Writes one production-ready YouTube Short script. Optimized for:
 - High-retention hook (first 2 seconds)
 - Rielcode lead-gen CTA at end
 
-Reads `projects/youtube-rielcode/strategy.md` if it exists for channel context. If missing, tell Azriel to run `/yt-strategy` first.
+Reads `projects/youtube-rielcode/strategy.md` if it exists for channel context. If missing, tell Misael to run `/yt-strategy` first.
 
 ## Steps
 
@@ -22,7 +22,7 @@ Ask in one message:
 - Which pillar? (1 = build showcase, 2 = SMB tips, 3 = process, 4 = hot take)
 - Any specific data/example to use? (client name, stat, screenshot to reference)
 
-If Azriel just says "give me one", auto-pick a pillar and topic from strategy doc.
+If Misael just says "give me one", auto-pick a pillar and topic from strategy doc.
 
 ### 2. Write the script
 
@@ -70,9 +70,9 @@ Steps:
    - Output format: `mp3_44100_128`
    - Speed/pace: target 150-170 wpm (slight forward lean for retention)
 4. Save audio to: `projects/youtube-rielcode/audio/[short-slug]-vo.mp3`
-5. Report audio length back to Azriel (must be 35-55s — leaves room for intro/outro pad).
+5. Report audio length back to Misael (must be 35-55s — leaves room for intro/outro pad).
 
-If ElevenLabs MCP unavailable, fall back: write voiceover script block, tell Azriel to paste manually into elevenlabs.io.
+If ElevenLabs MCP unavailable, fall back: write voiceover script block, tell Misael to paste manually into elevenlabs.io.
 
 ### 4b. Thumbnail — auto-generate via Canva MCP
 
@@ -87,7 +87,7 @@ Inputs to pass:
 
 Save outputs to: `projects/youtube-rielcode/thumbs/[short-slug]-thumb.png` and `[short-slug]-cover.png`.
 
-If Canva MCP unavailable, fall back: write a Canva-ready brief Azriel can copy into the Canva editor.
+If Canva MCP unavailable, fall back: write a Canva-ready brief Misael can copy into the Canva editor.
 
 ### 5. Hashtags + description
 

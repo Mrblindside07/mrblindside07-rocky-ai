@@ -1,13 +1,13 @@
 ---
 name: teaching-slides
-description: Use when Azriel needs a slide-deck prompt for his lecturer-assistant (asdos) teaching sessions in DDP, PTI, or Matematika Diskrit. Takes lecturer material (PDF/doc/paste) or just a topic, and outputs one copyable prompt to paste into Claude Design.
+description: Use when Misael needs a slide-deck prompt for his lecturer-assistant (asdos) teaching sessions in DDP, PTI, or Matematika Diskrit. Takes lecturer material (PDF/doc/paste) or just a topic, and outputs one copyable prompt to paste into Claude Design.
 ---
 
 ## What This Skill Does
 
 Turns lecturer material (or a bare topic) into a single copy-paste prompt for Claude Design that builds a teaching slide deck.
 
-**Output rule:** the prompt is printed in chat inside one fenced code block. Never write it to a file, never build the slides here. Azriel pastes it into Claude Design himself.
+**Output rule:** the prompt is printed in chat inside one fenced code block. Never write it to a file, never build the slides here. Misael pastes it into Claude Design himself.
 
 ## Scope
 
@@ -24,7 +24,7 @@ Courses supported: **DDP** (Dasar-Dasar Pemrograman, bahasa C), **PTI** (Pengant
 
 1. Which course? (DDP / PTI / Matdis) -- skip if obvious from material.
 2. Language of the deck? (Indonesian with English technical terms / full English / other) -- **always ask, no default.**
-3. Anything to add beyond the material? (Azriel often adds a subtopic, e.g. type conversion added to DDP struktur C.)
+3. Anything to add beyond the material? (Misael often adds a subtopic, e.g. type conversion added to DDP struktur C.)
 4. Include an assignment slide? Only ask if the material has no assignment. If the material has one, include it automatically.
 
 Do not ask about slide count or design. Those are fixed below.
@@ -35,13 +35,13 @@ Do not ask about slide count or design. Those are fixed below.
 - **Design:** follow the existing design system in Claude Design. Do not invent a new theme. Only ask for monospace on code.
 - **Code:** always in a code block with syntax highlighting, copied exactly from source material.
 - **Tone:** asisten dosen talking to first-year students. Casual, clear, analogy-heavy. Not a lecture.
-- **Credits slide:** last slide, names + NIM of Azriel and the co-assistant(s) for that course (table below).
+- **Credits slide:** last slide, names + NIM of Misael and the co-assistant(s) for that course (table below).
 
 ### 4. Per-course rules
 
 **DDP**
 - Always include a "Latihan baca kode" slide before the assignment: show code with deliberate errors, ask students whether it runs and why, then a follow-up question. Hint at the number of problems without listing the fix.
-- Terminal / program output is rendered as a **Command Prompt window**: dark box, white monospace text, title bar reading "Command Prompt", first line `C:\Users\azriel>`, last line `Press any key to continue . . .`.
+- Terminal / program output is rendered as a **Command Prompt window**: dark box, white monospace text, title bar reading "Command Prompt", first line `C:\Users\misael>`, last line `Press any key to continue . . .`.
 - Assignment file naming convention: `NIM_TugasN.c`.
 
 **PTI**
@@ -56,11 +56,11 @@ Do not ask about slide count or design. Those are fixed below.
 
 | Course | Names + NIM |
 |---|---|
-| DDP | Azriel Fajar Wicaksono (672025121), Cynthia Elena Gunadi (672025001) |
-| PTI | Azriel Fajar Wicaksono (672025121) |
-| Matdis | Azriel Fajar Wicaksono (672025121), Augusta Nayra Naftali (672025055), Inayatul Safitri (672025087) |
+| DDP | Misael Fajar Wicaksono (672025121), Cynthia Elena Gunadi (672025001) |
+| PTI | Misael Fajar Wicaksono (672025121) |
+| Matdis | Misael Fajar Wicaksono (672025121), Augusta Nayra Naftali (672025055), Inayatul Safitri (672025087) |
 
-PTI co-assistant is still TBD. If Azriel names one, ask for the NIM and update this table.
+PTI co-assistant is still TBD. If Misael names one, ask for the NIM and update this table.
 
 ### 6. Generated prompt shape
 
@@ -74,7 +74,7 @@ Write the prompt in the deck's chosen language. Structure:
 6. Credits slide with names + NIM.
 7. Closing line: follow the existing design system, do not create a new theme; monospace for code.
 
-Output it as one fenced block, nothing else after it except a one-line note if something needs Azriel's attention.
+Output it as one fenced block, nothing else after it except a one-line note if something needs Misael's attention.
 
 ## Hard Rules
 

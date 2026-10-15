@@ -1,6 +1,6 @@
 ---
 name: caption
-description: Use when Azriel wants a promotional caption for Rielcode on Instagram, TikTok, WhatsApp Status, or Facebook. Triggers include "write a caption", "caption for [platform]", "promo caption", "social caption", "/caption". Generates one strong caption per platform in Indonesian and English, using proven hook + HVC/AIDA/PAS frameworks.
+description: Use when Misael wants a promotional caption for Rielcode on Instagram, TikTok, WhatsApp Status, or Facebook. Triggers include "write a caption", "caption for [platform]", "promo caption", "social caption", "/caption". Generates one strong caption per platform in Indonesian and English, using proven hook + HVC/AIDA/PAS frameworks.
 argument-hint: "[platform] [topic/angle, e.g. tiktok referral post]"
 ---
 
