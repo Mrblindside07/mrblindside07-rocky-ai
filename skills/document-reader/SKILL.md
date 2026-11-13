@@ -1,7 +1,7 @@
 ---
 name: document-reader
 description: Use when someone asks to read, parse, or extract text from PDF, Word (.docx), Excel (.xlsx), PowerPoint (.pptx), HTML, or text files.
-argument-hint: [file path] [--pages 1-5] [--searach keyword]
+argument-hint: "[file path] [--pages 1-5] [--search keyword]"
 disable-model-invocation: true
 allowed-tools: [Read, Bash, Glob]
 ---
