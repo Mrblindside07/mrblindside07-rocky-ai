@@ -60,6 +60,7 @@ To save permanently: say "Remember this permanently." Memory + context + decisio
 
 - **Shell:** PowerShell on Windows / Bash on Fedora Linux (`dnf`).
 - **VS Code / Antigravity:** Primary code editor & agentic IDE.
+- **Frontend Styling:** Tailwind CSS utility classes + native browser APIs (prefer Tailwind over custom legacy CSS or heavy libraries for simple effects).
 - **Playwright:** Browser automation and testing.
 
 ---
