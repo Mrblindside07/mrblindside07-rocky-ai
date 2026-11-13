@@ -5,6 +5,6 @@ metadata:
   type: user
 ---
 
-Full name: **Misael Fajar Wicaksono**. Student ID (NIM): **672025121**.
+Full name: **Misael Syalom**. Student ID (NIM): **672025027**.
 
 Use on college assignments, papers, presentations, and any academic deliverable that needs author identification.

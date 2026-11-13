@@ -1,7 +1,8 @@
 # About Misael
 
-- **Name:** Misael
-- **Role:** Developer / Freelance Web Developer / Informatics Engineering Student / Lecturer's Assistant (DDP, Matematika Diskrit)
+- **Name:** Misael Fajar Wicaksono (NIM: 672025121)
+- **Role:** Software & Web Developer / Informatics Engineering Student (UKSW) / Lecturer's Assistant (DDP, Matematika Diskrit)
 - **Timezone:** UTC+7
-- **What I do:** College student majoring in informatics engineering who runs Rielcode, a website development business.
-- **#1 Priority:** Building Rielcode and finishing college -- both together.
+- **Environments:** Windows (PowerShell) & Fedora Linux (`dnf`, Bash)
+- **AI Partner:** **Rocky AI** (independent IT & software engineering consultant with Patrick Jane's *The Mentalist* persona)
+- **#1 Priority:** Building high-craft software projects and mastering college coursework -- both together.

@@ -1,31 +1,34 @@
-﻿# âš¡ mrblindside07-rocky-ai
+﻿# ⚡ mrblindside07-rocky-ai
 
-> **Unified, Live-Sync AI Assistant Configuration & Skill Arsenal**  
-> Seamlessly integrated across **Windows (PC)** and **Arch Linux (Laptop)** for Google Antigravity, Claude Code, and Gemini CLI.
-
----
-
-## ðŸŒŸ Fitur Utama
-- **46 Curated High-Impact Skills:** UI/UX (Emil Kowalski, Tailwind, shadcn), Web Performance (Lighthouse >= 90), Playwright Testing, Social Media & Content Automation.
-- **Native Live-Sync (Symlink Architecture):** Cukup `git pull`, semua skill dan prompt langsung ter-update di Antigravity tanpa copy-paste manual.
-- **Cross-Platform Out of the Box:** Otomatis menyesuaikan path Windows (`C:\...`) dan Linux (`$HOME`).
-- **Lean Token Budget:** Deskripsi teroptimasi, token budget terpakai hanya ~20% (sisa 80% sangat lega untuk coding).
-- **MCP Server Suite:** Chrome DevTools, Filesystem, Memory, Puppeteer, YouTube Transcript, & Notion preconfigured.
+> **Rocky AI — Misael's Personal Assistant & IT Consultant (Patrick Jane Persona)**  
+> Unified, live-sync configuration & skill arsenal across **Windows (PC)** and **Fedora Linux (Laptop)** for Google Antigravity, Claude Code, and Gemini CLI.
 
 ---
 
-## ðŸ’» Cara Install di Windows (PC)
+## 🌟 Fitur Utama
+- **Patrick Jane IT Consultant Persona:** Observant cold-reading of code & bugs, disarming charm & wit, Socratic precision, anti-bloat simplicity, and surgical execution.
+- **31 Curated High-Impact Skills:**
+  - **UI/UX & Design:** `ui-ux-pro-max`, `frontend-design`, `emil-design-eng`, `ui-styling`, `design`, `design-system`, `slides`, `brand`, `video-to-website`
+  - **Testing & Automation:** `playwright`, `cross-browser-check`, `url-screenshot`, `site-cloner`, `deploy`
+  - **Workflow & Thinking:** `daily-priorities`, `grill-me`, `git-command`, `claude-coach`, `new-project`, `session-memory`, `level-up`, `agent-builder`, `skill-builder`, `onboard`
+  - **Academic & Media Analysis:** `teaching-slides`, `quiz-auto`, `document-reader`, `youtube`, `remotion-best-practices`
+- **Native Live-Sync (Symlink / Junction Architecture):** Cukup `git pull` / `./sync.sh pull`, semua skill, global rules (`GEMINI.md` / `CLAUDE.md`), context, dan memory langsung aktif di Antigravity & Claude Code tanpa copy-paste manual.
+- **Cross-Platform Out of the Box:** Mendukung Windows (`Junction` + PowerShell) dan Linux (`dnf` Fedora, `pacman` Arch, `apt` Debian/Ubuntu).
 
-Jalankan PowerShell as Administrator di folder ini:
+---
+
+## 💻 Cara Install di Windows (PC)
+
+Jalankan PowerShell di folder ini:
 ```powershell
 .\setup-windows.ps1
 ```
 
 ---
 
-## ðŸ§ Cara Install di Arch Linux (Laptop)
+## 🎩 Cara Install di Fedora Linux (Laptop)
 
-Clone repositori ini di Arch Linux:
+Clone repositori ini dan jalankan installer (otomatis mendeteksi `dnf`, membuat live symlink ke `~/.gemini/config` & `~/.claude`):
 ```bash
 git clone https://github.com/Mrblindside07/mrblindside07-rocky-ai.git ~/mrblindside07-rocky-ai
 cd ~/mrblindside07-rocky-ai
@@ -35,15 +38,15 @@ chmod +x setup-linux.sh sync.sh
 
 ---
 
-## ðŸ”„ Cara Sinkronisasi Harian (Windows â†” Linux)
+## 🔄 Cara Sinkronisasi Harian (Windows ↔ Fedora Linux)
 
-### Saat kamu update skill di PC (Windows):
+### Saat update skill / rules di Windows (PC):
 ```powershell
-.\sync.ps1 -Action push -Message "Tambahkan skill baru / update prompt"
+.\sync.ps1 -Action push -Message "Update Rocky AI skills & rules"
 ```
 
-### Saat kamu buka Laptop (Arch Linux):
+### Saat sinkronisasi di Fedora Linux (Laptop):
 ```bash
-./sync.sh pull
+cd ~/mrblindside07-rocky-ai && ./sync.sh pull
 ```
-*Seketika itu juga Antigravity & Claude Code di laptopmu langsung ter-update dengan skill terbaru!* ðŸš€
+*Seketika itu juga Antigravity & Claude Code di Fedora Linux-mu langsung ter-update dengan persona Patrick Jane, rules, context, memory, dan 31 skill terbaru!* 🚀

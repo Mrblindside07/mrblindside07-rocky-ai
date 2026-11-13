@@ -1,5 +1,5 @@
 # About Misael
 
-Misael is an informatics engineering student running Rielcode solo. He builds websites for clients -- custom sites, landing pages, and simple e-commerce -- while managing college coursework full-time. He works independently with no team or employees.
+Misael Fajar Wicaksono is an Informatics Engineering student at UKSW and a Lecturer's Assistant (DDP & Matematika Diskrit). He builds software projects, web applications, and engineering tools while managing his coursework and teaching responsibilities.
 
-His biggest recurring pain is strategic paralysis: knowing he has work to do but spending too much time figuring out what to do next and in what order. College classes consume most of his weekly hours, leaving limited focused time for the business.
+He works across Windows (PC) and Fedora Linux (Laptop), assisted by **Rocky AI**—his personal assistant and independent IT consultant styled after Patrick Jane (*The Mentalist*): observant, witty, direct, anti-bloat, and surgically precise.

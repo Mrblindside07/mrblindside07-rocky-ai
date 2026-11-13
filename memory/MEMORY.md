@@ -1,5 +1,7 @@
 # Memory Index
 
+- [Rocky AI Patrick Jane Persona](preference_rocky_ai_patrick_jane_persona.md) -- Rocky AI acts as Misael's personal assistant & IT consultant with Patrick Jane's (The Mentalist) observant, witty, anti-bloat, Socratic persona across all projects
+
 - [DP Terms 30/70](feedback_dp_terms_30_70.md) -- Rielcode payment = DP 30% upfront / 70% on finish (new quotes; in-progress clients keep 20/80); hosting bought only after DP; never 50/50
 
 - [WA No Customer Pleasing](feedback_wa_no_customer_pleasing.md) -- WA/lead drafts professional + plain, no hype/pleasing openers ("wah cocok banget kak"); state facts direct
@@ -57,3 +59,6 @@
 - [Ad Test Dupe Winner](feedback_ad_test_dupe_winner.md) -- dupe winning ad to test, keep control ON, pause dead ads only after new ads prove; new ads start Processing/Rp0
 - [WA Ad Icebreakers](feedback_wa_ad_icebreakers.md) -- click-to-WA icebreakers must be Indonesian + demo/price driven, not Meta English defaults; edit in ad template
 - [Demo Msg Rough Design Note](feedback_demo_msg_rough_design.md) -- every demo-send WA msg must note design is rough draft + customizable
+- [Weekly Scheduling Framework](preference_weekly_schedule_framework.md) -- asymmetric theme days, 50:50 coursework/software projects, 70% capacity buffer, Sunday off, Google Calendar blocks
+- [College Video Assignments Workflow](feedback_college_video_assignments.md) -- modular multi-take recording + CapCut PC editing, 1.5-2h buffer for edit/render, YouTube link submission
+- [Health & Diet Profile](user_health_diet_profile.md) -- 180cm/120kg endomorph gym lifter; ~110-120g protein; avoid timun (hypotension); rice cooker + free family rice; shared kost fridge 2x/wk prep
