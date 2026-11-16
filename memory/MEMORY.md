@@ -12,7 +12,7 @@
 - [Leads vs Customers Reference Rule](feedback_leads_vs_customers_reference.md) -- "leads" = Leads table; "customer/client" = Active Potential Customers table in leads.md
 
 - [Makalah Format vs Tone](feedback_makalah_format_vs_tone.md) -- tiru struktur/penomoran template dosen, JANGAN tiru diksinya; footnote lengkap + kalimat reflektif bentuk pertanyaan = suara Misael
-- [Academic Credentials](user_academic_credentials.md) -- name Misael Fajar Wicaksono, NIM 672025121, use on college work
+- [Academic Credentials](user_academic_credentials.md) -- name Misael Syalom, NIM 672025027, use on college work
 - [Viral Ad System](project_viral_ad_system.md) -- meta/creative/ 8-step ad SOP + swipe database (thumbnails/titles) + hook bank; "log swipes" reads folders
 - [Reddit Blocked Indonesia](feedback_reddit_blocked_indonesia.md) -- Reddit blocked in ID; never use for ID market research, use TikTok/IG/FB/Kaskus instead
 - [Projects Layout Grid](feedback_projects_layout.md) -- rc-prj__side is 2-tile grid; adding a 3rd tile breaks layout
@@ -61,4 +61,4 @@
 - [Demo Msg Rough Design Note](feedback_demo_msg_rough_design.md) -- every demo-send WA msg must note design is rough draft + customizable
 - [Weekly Scheduling Framework](preference_weekly_schedule_framework.md) -- asymmetric theme days, 50:50 coursework/software projects, 70% capacity buffer, Sunday off, Google Calendar blocks
 - [College Video Assignments Workflow](feedback_college_video_assignments.md) -- modular multi-take recording + CapCut PC editing, 1.5-2h buffer for edit/render, YouTube link submission
-- [Health & Diet Profile](user_health_diet_profile.md) -- 180cm/120kg endomorph gym lifter; ~110-120g protein; avoid timun (hypotension); rice cooker + free family rice; shared kost fridge 2x/wk prep
+- [Health & Diet Profile](user_health_diet_profile.md) -- 180cm/120kg endomorph gym lifter; ~105-120g protein (tempe/tahu/eggs + chicken pelengkap); avoid timun (hypotension); separate breakfast budget; free family rice; shared kost fridge 3-5d waves

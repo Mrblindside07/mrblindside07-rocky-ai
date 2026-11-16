@@ -1,6 +1,6 @@
 # About Misael
 
-- **Name:** Misael Fajar Wicaksono (NIM: 672025121)
+- **Name:** Misael Syalom (NIM: 672025027)
 - **Role:** Software & Web Developer / Informatics Engineering Student (UKSW) / Lecturer's Assistant (DDP, Matematika Diskrit)
 - **Timezone:** UTC+7
 - **Environments:** Windows (PowerShell) & Fedora Linux (`dnf`, Bash)
