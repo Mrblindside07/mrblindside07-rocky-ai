@@ -77,9 +77,9 @@ To save permanently: say "Remember this permanently." Memory + context + decisio
 ## Skills
 
 Active skills for development, UI/UX, academic, and engineering:
-- **UI/UX & Design:** `/ui-ux-pro-max`, `/frontend-design`, `/emil-design-eng`, `/ui-styling`, `/design`, `/design-system`, `/slides`, `/brand`, `/video-to-website`
-- **Testing & Code Quality:** `/playwright`, `/cross-browser-check`, `/url-screenshot`, `/site-cloner`, `/deploy`, `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/karpathy-guidelines`
-- **Workflow & Thinking:** `/daily-priorities`, `/grill-me`, `/git-command`, `/claude-coach`, `/new-project`, `/session-memory`, `/level-up`, `/agent-builder`, `/skill-builder`, `/onboard`
+- **UI/UX & Design:** `/ui-ux-pro-max`, `/frontend-design`, `/emil-design-eng`, `/ui-styling`, `/design`, `/design-system`, `/slides`, `/video-to-website`
+- **Testing & Code Quality:** `/playwright`, `/cross-browser-check`, `/url-screenshot`, `/site-cloner`, `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/karpathy-guidelines`
+- **Workflow & Thinking:** `/daily-priorities`, `/grill-me`, `/git-command`, `/skill-builder`
 - **Academic & Media Analysis:** `/teaching-slides`, `/quiz-auto`, `/document-reader`, `/youtube`, `/remotion-best-practices`
 
 ---
