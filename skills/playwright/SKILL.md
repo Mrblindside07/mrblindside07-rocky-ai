@@ -62,14 +62,33 @@ const { chromium } = require('playwright');
 
 Verify install before any subcommand:
 ```bash
-ls c:/Users/afw14/OneDrive/Documents/JARVIS/node_modules/@playwright/test
+node -e "require.resolve('playwright')" 2>nul || node -e "require.resolve('puppeteer')"
 ```
-If missing → run `npm install --save-dev @playwright/test` + `npx playwright install chromium` at JARVIS root.
+If neither package is available in the project or global modules, install locally or use Puppeteer/Chrome fallback.
+
+## Windows Chrome / Browser Fallback (Puppeteer & Playwright)
+
+When default browser cache is empty on Windows, resolve installed Chrome before failing:
+```js
+const fs = require('fs');
+const chromePath = [
+  process.env.CHROME_PATH,
+  'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+  'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+].find(p => p && fs.existsSync(p));
+```
+
+## Standard Web UI Audit Matrix (First-Visit + Multi-Viewport)
+
+For full UI audits of web apps, test **after** clearing storage (`localStorage.clear()`) and **after** seeding sample data across:
+- **Viewports:** Desktop (`1366x768`), Tablet (`768x1024`), Mobile Portrait (`390x844`), Mobile Landscape (`844x390`).
+- **Themes:** Both `light` and `dark` classes.
+- **Assertions:** `console.error === 0`, `pageerror === 0`, `document.documentElement.scrollWidth <= clientWidth` (no horizontal overflow), modal close button inside viewport, and clean empty-state copy.
 
 ## Notes
 
-- All paths relative to `c:/Users/afw14/OneDrive/Documents/JARVIS`
-- npm execution requires `"/c/Program Files/nodejs/npm.cmd"` or `cmd /c "npm ..."` due to PowerShell exec policy
+- Run scripts from the active project workspace (never assume hardcoded paths from other machines).
+- On Windows PowerShell where execution policy blocks `npm.ps1`, use `cmd /c "npm ..."` if needed.
 - Browser cache at `%LOCALAPPDATA%\ms-playwright\` — do not redownload
 - Headless default. Codegen runs headed.
 - Decoupled from `/url-screenshot` skill's isolated node_modules
