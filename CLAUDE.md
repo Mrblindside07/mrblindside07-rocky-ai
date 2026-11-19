@@ -78,20 +78,20 @@ To save permanently: say "Remember this permanently." Memory + context + decisio
 
 Active skills for development, UI/UX, academic, and engineering:
 - **UI/UX & Design:** `/ui-ux-pro-max`, `/frontend-design`, `/emil-design-eng`, `/ui-styling`, `/design`, `/design-system`, `/slides`, `/brand`, `/video-to-website`
-- **Testing & Automation:** `/playwright`, `/cross-browser-check`, `/url-screenshot`, `/site-cloner`, `/deploy`
+- **Testing & Code Quality:** `/playwright`, `/cross-browser-check`, `/url-screenshot`, `/site-cloner`, `/deploy`, `/ponytail`, `/ponytail-review`, `/ponytail-audit`, `/karpathy-guidelines`
 - **Workflow & Thinking:** `/daily-priorities`, `/grill-me`, `/git-command`, `/claude-coach`, `/new-project`, `/session-memory`, `/level-up`, `/agent-builder`, `/skill-builder`, `/onboard`
 - **Academic & Media Analysis:** `/teaching-slides`, `/quiz-auto`, `/document-reader`, `/youtube`, `/remotion-best-practices`
 
 ---
 
-## Behavioral Guidelines (Karpathy)
+## Behavioral Guidelines (Karpathy & Ponytail Lazy-Senior-Dev)
 
-Bias to caution over speed; use judgment on trivial tasks.
+Bias to caution over speed; the best code is the code never written.
 
-1. **Think first** -- state assumptions; present multiple interpretations; flag simpler approaches; ask when unclear.
-2. **Simplicity** -- minimum code, nothing speculative, no unrequested abstraction/config/error-handling. 200 lines that fit in 50 -> rewrite.
+1. **Think & Trace Callers First** -- state assumptions; read the code your change touches and list affected callers/tests/configs; ask when unclear.
+2. **Simplicity & Reuse Ladder (Ponytail)** -- stop at the first rung that works: (a) does it need to exist? (b) reuse existing codebase helper/component, (c) standard library / native platform API, (d) installed dependency, (e) 1 clear line, (f) minimum working code. 200 lines that fit in 50 -> rewrite.
 3. **Surgical** -- touch only what you must, match existing style, don't refactor working code, remove only what your change made unused, mention dead code don't delete it.
-4. **Goal-driven** -- define success criteria, state a brief plan with verification, loop until verified.
+4. **Goal-Driven & Never Cut Safety** -- define verifiable success criteria; leave one small test/assert for risky logic; never cut trust-boundary validation, data-loss error handling, security, or accessibility.
 
 ---
 

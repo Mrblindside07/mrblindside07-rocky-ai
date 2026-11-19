@@ -1,6 +1,6 @@
 ---
 name: cross-browser-check
-description: Use when Misael wants to test a project's functionality across multiple browsers (Chromium, Firefox, WebKit, Edge, Chrome stable). Spins up headed Playwright runs against a target URL, checks critical user flows, screenshots failures, and reports a compact PASS/FAIL matrix per browser. Trigger phrases — "cross-browser test", "test all browsers", "browser compatibility check", "does it work in Firefox/Safari/WebKit/Edge", "Playwright matrix", "/cross-browser".
+description: "Multi-browser Playwright testing (Chromium, Firefox, WebKit, Edge) with flow checks, failure screenshots, and PASS/FAIL matrix."
 argument-hint: "[optional: target URL or local project path]"
 disable-model-invocation: false
 ---
